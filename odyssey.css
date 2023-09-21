@@ -637,7 +637,7 @@
     .navbar{
         display: flex;
         flex-direction: row;
-        width: 30%;
+        width: 100%;
         height: 18vh;
 
     }
@@ -665,17 +665,17 @@
         rotate: -1deg;
         position: absolute;
         top: 30px;
-        left: 160px;
+        left: 60px;
     }
     .first-picture img{
-        width: 38%;
+        width: 100%;
         height: 28vh;
         rotate: -1deg;
     }
     .first-picture{
-        width: 80%;
+        width: 100%;
         height: 80vh;
-        margin-left: 150px;
+        margin-left: 0px;
     }
     .first-picture h1{
         color: var(--white);
@@ -688,7 +688,7 @@
         line-height: normal;
         position: absolute;
         top: 70px;
-        left: 160px;
+        left: 60px;
      }
      .first-picture p{
         width: 34%;
@@ -706,7 +706,7 @@
         width: 483.875px;
         height: 100vh;
         flex-shrink: 0;
-        left: 140px;
+        left: 40px;
         top: 100px;
      }
      .border-1 img{
@@ -779,7 +779,7 @@
         border-radius: 9px;
         position: absolute;
         top: 150px;
-        left: 230px;
+        left: 280px;
         background-color: var(--white);
      }
     
@@ -799,7 +799,7 @@
         flex-shrink: 0;
         position: absolute;
         top: 160px;
-        left: 233px;
+        left: 283px;
      }
      .border-2 h6{
         font-family: 'Plus Jakarta Sans';
@@ -813,12 +813,12 @@
     }
     .black-font {
         border: 1px solid var(--white);
-        width: 33%;
+        width: 43%;
         height: 5vh;
         border-radius: 9px;
         position: absolute;
         top: 245px;
-        left: 150px;
+        left: 160px;
         background-color: var(--dark);
     }
     .black-font .wacth{
@@ -859,7 +859,7 @@
         line-height: normal;
         display: flex;
         flex-direction: row;
-        width: 36%;
+        width: 46%;
      }
     .black-font h3{
         color: var(--white);
